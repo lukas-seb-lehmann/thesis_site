@@ -1,0 +1,117 @@
+
+@font-face {
+  font-family: roboto_black;
+  src: url("Roboto-Black.ttf");
+}@font-face {
+  font-family: roboto_regular;
+  src: url("Roboto-Regular.ttf");
+}@font-face {
+  font-family: roboto_light;
+  src: url("Roboto-Light.ttf");
+}
+
+h1,h3{
+	
+	
+	font-family: roboto_regular;
+	
+}
+h2{
+	
+	font-family: roboto_light;
+}
+h3{
+	text-align: center;
+}
+
+.header-container{
+	width: 70%;
+	position: relative;
+	padding: 30px;
+	
+}
+
+.img-con{
+	width: 30%;
+	position: relative;
+	padding: 30px;
+	
+	
+}
+img{
+	height:30%;
+	position: relative;
+	
+	
+}
+.header{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	
+	vertical-align: center;
+}
+
+
+.video-container{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: 80%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	
+}
+
+iframe{
+	padding-bottom: 50px;
+	padding-top: 0;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+@media (max-width:760px){
+	img{
+	height:20%;
+	position: relative;
+	
+	
+}
+}
+@media (max-width:550px){
+.header{
+	display: flex;
+	flex-direction: column-reverse;
+	
+	
+}
+		img{
+	height:100px;
+	position: relative;
+	float: right;
+	
+}
+}
+
+@media (max-width:600px){
+	.iframe-11{
+		width: 400px;
+		height: 400px;
+	}
+	.iframe-169{
+		width: 400px;
+		height: 225px;
+	}
+}
+
+@media (max-width:400px){
+	.iframe-11{
+		width: 300px;
+		height: 300px;
+	}
+	.iframe-169{
+		width: 300px;
+		height: 169px;
+	}
+}
